@@ -1,0 +1,38 @@
+
+ul{
+    padding: 1rem 15rem;
+    text-align: start;
+}
+ul .mainDiv{
+    justify-content: baseline;
+    text-align: end;
+    background-color: #9146FF;
+    margin: 1%;
+
+}
+ul .taskBar{
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    background-color: #9146FF;
+    color: #ffffff;
+    text-align: start;
+    margin: 0.6rem;
+}
+
+
+
+ul .taskBar .btnTask{
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+    position: relative;
+    background-color: #9146FF;
+    border-radius: 7px;
+    border: #9146FF solid 1px;   
+}
+
+ul .taskBar .btnTask:hover{
+    color:rgb(84, 84, 84);
+
+}

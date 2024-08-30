@@ -1,0 +1,16 @@
+body{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: small;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: center;
+    height: 100vh;
+    background-color: #9146FF;
+}
+.todolist{
+    background-color: rgb(37, 30, 70);
+    padding: 2rem 0rem;
+    border: solid 2px;
+    border-radius: 10px;
+    text-align: center;
+}

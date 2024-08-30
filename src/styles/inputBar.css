@@ -1,0 +1,48 @@
+.container {
+    
+    position: flex;
+    justify-content: center;
+    width: 95%;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.form {
+    border-radius: 7px;
+    padding: 5px;
+    border: solid 2px;
+    background-color: rgb(37, 30, 70);
+    color: #9146FF;
+    text-align: center;
+    margin: 0 10%;
+}
+
+.container .form input{
+    width: 90%;
+    position: relative;
+    outline: none;
+    border: none;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(37, 30, 70);
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.container .form button{
+    color: white;
+    border-radius: 7%; 
+    border: #9146FF solid 3px;
+    background-color: #9146FF;
+    padding: 7.6px;
+}
+.container .form button:hover{
+    background-color: #9046ff85;
+    color: rgb(255, 255, 255);
+    transition: 100ms;
+    border: #9046ff85 solid 3px;
+
+}
+
